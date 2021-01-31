@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<!-- <meta name="viewport" content="width=device-width" /> -->
+	<title>Registration</title>
+	<link rel="stylesheet" href="">
+
+	<style >
+
+		a{
+			color: gray;
+		}
+
+		a:hover{
+			
+			color: black;
+			
+			}
+
+		
+	</style>
+</head>
+<body style="margin:0px;padding-left: 250px;padding-right: 250px;padding-top: 20px; ">
+
+	<!-- This is registration form padding left right of decoration donation to lightgray right of this section i don't style hover black
+		background text background left 250 padding of right right and section and outer area is so close required border solid section and 
+		this is not color gray gray section right of -->
+	<div  style="background: #EFEFEF; font-size:14px; border:1px solid lightgray; padding:0px;padding-right: 250px; padding-bottom: 20px;">
+		<p style="color:gray"> <span style="color:red;">*</span> > Donation Required Information</p>
+		
+	<div style="padding-left: 20px">
+		<a href="#" style="text-decoration: none;">>1 Donation </a> &nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#" style="text-decoration: none;">>2 Comfirmation</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#" style="text-decoration: none;">>3 Thank you</a>
+	</div><br/>
+
+
+		<b style="color:red;padding-left: 20px"> Donor Information</b>
+
+		<form action="#" method="get" >
+
+			<table  align=center style=" font-size:14px; padding-left: 50px;" >
+				
+					<tr >
+						
+						<td align="right"><b>First Name <span style="color:red;">*</span> </b> </td>
+						<td><input type="text" name="fname" style="width: 260px; height:13px;" value="" required></td>
+						
+					</tr>
+ 
+					<tr >
+						<td align="right"><b>Last Name <span style="color:red;">*</span> </b> </td>
+						<td><input type="text" name="lname" style="width: 260px;height:13px;" value="" required></td>
+						
+					</tr>
+
+					<tr >
+						<td align="right"><b>Company </b> </td>
+						<td><input type="text" name="company" style="width: 260px;height:13px;" value="" required></td>
+						
+					</tr>
+
+					<tr>
+						<td align="right"><b>Address 1 <span style="color:red;">*</span> </b> </td>
+						<td><input type="text" name="address1" style="width: 260px;height:13px;" value="" required></td>
+						
+					</tr>
+
+					<tr>
+						<td align="right"><b>Address 2 </b> </td>
+						<td><input type="text" name="address2" style="width: 260px;height:13px;"></td>
+						
+					</tr>
+
+					<tr >
+						<td align="right"><b>City <span style="color:red;">*</span> </b> </td>
+						<td><input type="text" name="city" style="width: 260px;height:13px;" value="" required></td>
+						
+					</tr>
+
+				 <tr  >
+				     <td align="right"> <b>State  <span style="color:red;">*</span></b></td>
+				        <td>
+				              <select name="state" required style="height:17px;">
+				                <option value="" disabled selected >Select a State</option>
+				                <option value="Dhaka" >Dhaka</option>
+				                <option value="Netrokona">Netrokona</option>
+				                <option value="Mymensingh">Mymensingh</option>
+				                <option value="Bogra">Bogra</option>
+				                <option value="Rajshahi">Rajshahi</option>
+				                <option value="Borishal">Borishal</option>
+				                <option value="Borguna">Borguna</option>
+				                
+				                
+				              </select>
+				        </td>
+				    </tr>
+
+				    <tr  >
+						<td align="right"><b>Zip Code <span style="color:red;">*</span> </b> </td>
+						<td><input type="number" name="zipcode" style="width: 260px;height:13px;"></td>
+						
+					</tr>
+
+					<tr  >
+				     <td align="right"><b>Country  <span style="color:red;">*</span></b></td>
+				        <td>
+				              <select name="country" required style="width: 300px; height:17px;">
+				                <option value="" disabled selected >Select a State</option>
+				                <option value="Bangladesh">Bangladesh</option>
+				                <option value="India">India</option>
+				                <option value="America">America</option>
+				                <option value="Singapur">Singapur</option>
+				                <option value="Japan">Japan</option>
+				                <option value="Chine">Chine</option>
+				                <option value="Brazil">Brazil</option>
+				              </select>
+				        </td>
+				    </tr>
+
+				    <tr >
+						<td align="right"><b>Phone</b> </td>
+						<td><input type="tel" name="phone" style="width: 260px;height:13px;"></td>
+					</tr>
+
+					<tr >
+						<td align="right"><b>Fax</b> </td>
+						<td><input type="text" name="fax" style="width: 260px;height:13px;"></td>
+					</tr>
+
+					<tr >
+						<td align="right"><b>Email <span style="color:red;">*</span></b> </td>
+						<td><input type="email" name="email" style="width: 260px;height:13px;"></td>
+					</tr>
+
+					<tr >
+						<td align="right"><b>Donation Amount <span style="color:red;">*</span> </b></td>
+						<td> 
+							<input type="radio" name="amount" value="None" checked required> None
+							<input type="radio" name="amount" value="$50"> $50
+							<input type="radio" name="amount" value="$75"> $75
+							<input type="radio" name="amount" value="$100"> $100
+							<input type="radio" name="amount" value="$250"> $250
+							<input type="radio" name="amount" value="Other"> Other
+						</td>
+					</tr>
+
+					<tr >
+						<td align="right"> (Check a button or type your <br/>amount)</td>
+						<td >  <b>Other Amount $</b> <input type="number" name="otherammount" min="1" style="width: 200px;height:13px;"></td>
+					</tr>
+
+					<tr>
+						<td align="right"><b>Recurring Donation</b> <br/> (check if yes) </td>
+						<td>
+							<input type="checkbox" name="box" value="" > I am interested in giving on a regular Donate. 
+							<br/> Monthly Credit Card $ 
+							<input type="number" name="" style="width:50px;" > &nbsp; for &nbsp;
+							<input type="number" name="" style="width:50px;" min="1" max="31">  &nbsp;Months &nbsp;
+						</td>
+
+					</tr>
+
+					
+				</div>
+				</table>	
+
+				<div>
+					<br/><b style="color:red;padding-left: 20px"> Honorarium and Memorial Donation Information</b>
+
+					<table align=center style=" font-size:14px; padding-left: 50px;">
+						<tr>
+							<td align="right" > <b> I would like to make this<br/> donation</b></td>
+							<td style="padding-right: 220px;">
+								<input type="radio" name="" > &nbsp; To Honor <br/>
+								<input type="radio" name="" > &nbsp; In Memory of 
+
+							</td>
+						</tr>
+
+					<tr >
+						
+						<td align="right"><b> Name  </b> </td>
+						<td><input type="text" name="" style="width: 260px; height:13px;" value="" required>
+						</td>
+						
+					</tr>
+					<tr >
+						
+						<td align="right"><b> Acknowlede Donation to  </b> </td>
+						<td><input type="text" name="" style="width: 260px; height:13px;" value="" required>
+						</td>
+						
+					</tr>
+					<tr >
+						
+						<td align="right"><b> Address </b> </td>
+						<td><input type="text" name="" style="width: 260px; height:13px;" value="" required>
+						</td>
+						
+					</tr>
+
+					<tr  >
+				     <td align="right"><b>State  </td>
+				        <td>
+				              <select name="state" required style="height:17px;">
+				                <option value="" disabled selected >Select a State</option>
+				                <option value="Dhaka">Dhaka</option>
+				                <option value="Netrokona">Netrokona</option>
+				                <option value="Mymensingh">Mymensingh</option>
+				                <option value="Bogra">Bogra</option>
+				                <option value="Rajshahi">Rajshahi</option>
+				                <option value="Borishal">Borishal</option>
+				                <option value="Borguna">Borguna</option>
+				                
+				                
+				              </select>
+				        </td>
+				    </tr>
+
+
+
+					<tr >
+						
+						<td align="right"><b> Zip </b> </td>
+						<td><input type="text" name="" style="width: 260px; height:13px;" value="" required>
+						</td>
+						
+					</tr>
+
+					</table>
+				</div>
+
+				<div  >
+					<b style="color:red;padding-left: 20px"> Aditional Information </b><br/>
+					<span style="padding-left: 20px">
+						Please enter your name, conmpany or organization as you would like it to appear in our publication:
+					</span>
+					
+					
+						<span style="padding-left: 220px"><b> Name </b> 
+						<input type="text" name="" style="width: 260px; height:13px;" value="" required></span> <br/>
+
+				
+					&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" style="padding-left: 20px">I would like my gift to remain anonymous <br/>
+					&nbsp;&nbsp;&nbsp;<input type="checkbox" name="">My employer offers a matching gift program.I will met the matching gift form <br/>
+					&nbsp;&nbsp;&nbsp;<input type="checkbox" name="">I would like my gift to remain anonymous 
+
+					<table align=center style=" font-size:14px; padding-left: 50px;">
+						<tr>
+							<td align="right"> <b> Comments </b><br/> (Please Type any Question or feadback here)</td>
+							<td>
+								<textarea rows="4" cols="50" name="comment" form="usrform">
+								</textarea>
+							</td>
+						</tr>
+
+						<tr>
+							<td align="right"><b> How may we contact you?</b></td>
+							<td>
+								<input type="checkbox" name="">E-mail<br>
+								<input type="checkbox" name="">Postal Mail<br>
+								<input type="checkbox" name="">Telephone<br>
+								<input type="checkbox" name="">Fax
+							</td>
+						</tr>
+					</table>
+					<div>
+						<span style="padding-left:20px; color:gray;"> I would like to recive newsletters and information about Social Event :</span> <br>
+						<div style="padding-left: 220px;">
+							     <input type="checkbox" name="" style="padding-left: 50px;">E-mail<br>
+								<input type="checkbox" name="">Postal Mail
+						</div>
+
+					 <span style="padding-left: 20px;"> 
+					 		<input type="checkbox" name=""> I would like information about volunteering with the ..............
+					 </span>        
+					</div>
+
+					<hr style=" background: white;height: 10px;width: 800px; border:none"> 
+
+					<div style="padding-left: 180px;">
+						<input type="reset" name="resesr" value="Reset" style="border-radius: 30px;width: 60px;" >
+						<input type="submit" name="sumbit" value="Continue" style="border-radius: 30px;width: 100px;"> 
+					</div>
+			
+				</div>
+
+			
+		</form>
+		
+		<div align="right">
+			&copy<i align ="right">17-35626-3</i>
+	
+		</div>
+		
+</body>
+</html>
